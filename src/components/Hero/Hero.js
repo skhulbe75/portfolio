@@ -12,10 +12,10 @@ const Hero = () => (
           My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Talk is Cheap, Show me the code. Kindly Go thorough my work to understand more about my personality and nature of work.
+        Talk is Cheap, Show me the Code, said Linus. So go through my work to understand more about my personality and nature of work.
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.google.com'}> Learn More </Button>
-    </LeftSection>
+      <Button onClick={() => window.open('https://drive.google.com/file/d/1I-Gmw-IJmNJSjIgy8zp0SrwD_pQHXdrS/view?usp=sharing', '_blank')}> Learn More </Button>
+     </LeftSection>
   </Section>
 );
 

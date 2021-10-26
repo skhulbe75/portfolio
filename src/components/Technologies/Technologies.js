@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiNodejsSmall} from 'react-icons/di';
+import { DiFirebase, DiReact, DiMongodb, DiNodejsSmall} from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,7 +8,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web development world.
-      From backend to Design
+      <br />From backend to Design
     </SectionText>
     <List>
       <ListItem>
@@ -37,7 +37,7 @@ const Technologies = () =>  (
           <ListTitle>Database</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Databases
+            MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
